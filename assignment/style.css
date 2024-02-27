@@ -1,0 +1,29 @@
+#header-row {
+  display: flex;
+}
+.data-row,
+#header-row {
+  display: flex;
+  gap: 6px;
+}
+.row-index,
+#header-index {
+  max-width: 48px;
+  width: 10%;
+}
+.row-symbol,
+#header-symbol {
+  display: flex;
+  max-width: 240px;
+  width: 10%;
+}
+.row-mark-price,
+#header-mark-price {
+  max-width: 240px;
+  width: 10%;
+}
+.row-funding-rate,
+#header-funding-rate {
+  max-width: 240px;
+  width: 10%;
+}
